@@ -1,0 +1,20 @@
+{#
+/**
+* @file
+* Default them implementation to display block
+*
+* @see template_preprocess_block()
+*
+* @ingroup themeable
+*/
+#}
+{% set classes = [
+  'clear_both',
+  'center'
+] %}
+
+<div{{ attributes.addClass(classes) }} style="text-align: center">
+  <img src="{{ icon }}" alt="icon">
+  <p>{{ weather }}</p>
+  <p><b>{{ temperature }}°C</b></p>
+</div>
