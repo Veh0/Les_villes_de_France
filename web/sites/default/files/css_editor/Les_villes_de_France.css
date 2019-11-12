@@ -9,3 +9,8 @@ a.site-branding__logo img {
 div.block-weather-block content div {
   width: 200%
 }
+
+div#block-les-villes-de-france-weatherblock {
+  background-color: #1d84c3;
+  color: white
+}
